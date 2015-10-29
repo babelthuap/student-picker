@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Picker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Student Picker</h1>
+
+  <p>
+    <button id="get1">Get One Random Student</button>
+    <span id="randomStudent"></span>
+  </p>
+
+  <p>
+    <button id="shuffle">Shuffle!</button> 
+    <button id="sort">Sort!</button>
+  </p>
+
+  <p>
+    There are <span id="numStudents">0</span> students total<span id="prime"></span>. 
+    Split into teams of <input type="number" id="teamSize" value="1" min="1">
+  </p>
+
+  <hr />
+
+  <p>
+    input student(s): <input type="text" id="newStudentName">
+    <button id="addButton">add</button>
+  </p>
+
+  <h3>Student List:</h3>
+  <div id="studentList"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
