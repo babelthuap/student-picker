@@ -1,5 +1,6 @@
 #Student Picker
 by Nicholas Neumann-Chun
+
 *homework assignment for Coding House on 28 Oct 2015*
 
 This is a simmple app that allows the user to
